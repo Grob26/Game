@@ -1,0 +1,18 @@
+/* .id{
+    text-align: right;
+} */
+
+.btn{
+    text-align: right;
+    display: inline-block;
+};
+
+.link{
+    text-transform: none;
+letter-spacing: normal;
+};
+
+.mainMenu{
+    text-transform: none;
+    letter-spacing: normal; 
+}
