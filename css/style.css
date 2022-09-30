@@ -1,0 +1,6 @@
+.compass {
+    pointer-events: none;
+    position: fixed;
+    top: -800px;
+    left: -800px;
+}
