@@ -3,14 +3,19 @@
 } */
 
 .btn{
-    text-align: right;
-    display: inline-block;
-};
+    text-align: right
+}
 
-.link{
+.sss{
+    display: inline;
+    margin-right: 5px;
+    border: 1px solid blue;
+}
+
+.link  {
     text-transform: none;
-letter-spacing: normal;
-};
+    letter-spacing: normal;
+}
 
 .mainMenu{
     text-transform: none;
