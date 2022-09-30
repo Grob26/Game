@@ -3,28 +3,18 @@
 } */
 
 .btn{
-<<<<<<< HEAD
     text-align: right
 }
-=======
-    text-align: right;
-   
-};
->>>>>>> 22276a7a30b03e7c0c394eb580b2d05b765cd02b
 
-<<<<<<< HEAD
 .sss{
     display: inline;
     margin-right: 5px;
-    border: 1px solid blue;
 }
 
 .link  {
     text-transform: none;
     letter-spacing: normal;
 }
-=======
->>>>>>> b5c552702c8c6d801d450c7ef6650ee6ae0aa4b2
 
 .mainMenu{
     text-transform: none;
