@@ -3,8 +3,14 @@
 } */
 
 .btn{
+<<<<<<< HEAD
     text-align: right
 }
+=======
+    text-align: right;
+   
+};
+>>>>>>> 22276a7a30b03e7c0c394eb580b2d05b765cd02b
 
 .sss{
     display: inline;
