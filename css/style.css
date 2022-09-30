@@ -1,6 +1,32 @@
+body{
+    margin: 0;
+}
+
 .compass {
     pointer-events: none;
     position: fixed;
     top: -800px;
     left: -800px;
 }
+
+.header {
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.logo {
+    max-width: 224px;
+    max-height: 65px;
+}
+
+.main{
+    width: auto;
+}
+
+.container{
+    padding: 0 20px;
+}
+
