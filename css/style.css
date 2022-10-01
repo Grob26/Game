@@ -1,11 +1,15 @@
+
 body {
     margin: 0;
     font-family: ff-good-web-pro-condensed, sans-serif;
+    background-image: url(/img/background-e275f9c0..jpg);
 }
 
-body>.main {
+body.main{
     background-image: url(/img/background-19d968e4..webp);
 }
+
+
 
 .compass {
     pointer-events: none;
