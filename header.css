@@ -23,12 +23,10 @@
 
 .sss{
     display: inline-block;
-    float: left;
+    float: right;
     padding: 0 30px;
    text-transform: uppercase;
    line-height: 50px;
-   text-decoration: aliceblue;
+   text-decoration: aliceblue; 
 }
- .hover{
-    background-color: brown;
- }
+
