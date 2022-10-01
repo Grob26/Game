@@ -1,5 +1,10 @@
-body{
+body {
     margin: 0;
+    font-family: ff-good-web-pro-condensed, sans-serif;
+}
+
+body>.main {
+    background-image: url(/img/background-19d968e4..webp);
 }
 
 .compass {
@@ -22,11 +27,78 @@ body{
     max-height: 65px;
 }
 
-.main{
+.main {
     width: auto;
+    background-image: url(/img/background-e275f9c0..jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
 }
 
-.container{
+.container {
+    position: relative;
+    max-width: 1640px;
     padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.header.container {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.slide {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 57fr 19fr;
+    box-sizing: border-box;
+    align-items: center;
+    justify-items: center;
+    min-height: 360px;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.buttons.single {
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.logo_ {
+    margin-top: 20px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    position: relative;
+    min-width: 174px;
+    height: 52px;
+    box-shadow: 0 20px 32px rgb(63 101 97 / 50%);
+    color: black;
+    border: none;
+    padding: 0 10px;
+    margin: 0 23px;
+    text-transform: uppercase;
+    font-weight: 1.5;
+    background-repeat: repeat-x;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.button.red {
+    color: red;
+    background-image: url(https://www.thewitcher.com/build/images/middle-33abf525..png);
+}
