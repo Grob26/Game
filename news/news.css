@@ -1,0 +1,51 @@
+.all {
+    position: relative;
+    max-width: 1640px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.photo1 {
+    padding-right: 50px;
+    display: flex;
+    justify-content: right;
+    width: 520px;
+    height: auto;
+
+
+
+}
+
+.start {
+    display: inline-block;
+    justify-content: right;
+    justify-items: center;
+}
+
+.container {
+    justify-items: center;
+    background-color: rgb(218, 209, 209);
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/* .all{
+    content: '';
+    display: block;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+  } */
