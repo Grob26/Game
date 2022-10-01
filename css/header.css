@@ -21,7 +21,6 @@
 
 .sss {
     display: inline-block;
-    float: right;
     padding: 0 30px;
     text-transform: uppercase;
     line-height: 50px;
@@ -33,7 +32,37 @@
     margin-right: auto;
 }
 
+.sss>ul{
+    list-style: none;
+    padding: 1em;
+    margin: 0;
+    border: 1px solid black;
+    background-color: white;
+}
 .mainMenu, .mainMenu-content {
     position: absolute;
+    min-inline-size: max-content;
 }
 
+.mainMenu{
+    position: relative;
+}
+
+.mainMenu summary::-webkit-details-marker {
+    display: none;
+}
+
+.mainMenu-content{
+    border: 1px solid black;
+    background-image: url();
+}
+
+.sss summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
