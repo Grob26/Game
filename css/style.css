@@ -1,11 +1,10 @@
-
 body {
     margin: 0;
     font-family: ff-good-web-pro-condensed, sans-serif;
     background-image: url(/img/background-e275f9c0..jpg);
 }
 
-body.main{
+body.main {
     background-image: url(/img/background-19d968e4..webp);
 }
 
@@ -107,7 +106,7 @@ body.main{
     background-image: url(https://www.thewitcher.com/build/images/middle-33abf525..png);
 }
 
-.news{
-   display: flex;
-   justify-content: center;
+.news {
+    display: flex;
+    justify-content: center;
 }
