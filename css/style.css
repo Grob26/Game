@@ -102,3 +102,8 @@ body>.main {
     color: red;
     background-image: url(https://www.thewitcher.com/build/images/middle-33abf525..png);
 }
+
+.news{
+   display: flex;
+   justify-content: center;
+}
