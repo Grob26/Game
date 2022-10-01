@@ -74,10 +74,9 @@ body.main {
 
 .logo_ {
     margin-top: 20px;
-    height: 40px;
+    height: 60px;
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
@@ -108,5 +107,11 @@ body.main {
 
 .news {
     display: flex;
+    justify-content: center;
+}
+
+.action{
+    align-items: center;
+    text-align: center;
     justify-content: center;
 }
