@@ -33,3 +33,7 @@
     margin-right: auto;
 }
 
+.mainMenu, .mainMenu-content {
+    position: absolute;
+}
+
