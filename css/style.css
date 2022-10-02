@@ -114,6 +114,20 @@ body.main {
     background-image: url(https://www.thewitcher.com/build/images/middle-33abf525..png);
 }
 
+.button.red::before{
+    background-image: url(https://www.thewitcher.com/build/images/left-bc2cd3e3..png);
+    background-repeat: no-repeat;
+}
+
+.button::before .button.red::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 52px;
+    width: 23px;
+    top: 0;
+}
+
 .news {
     display: flex;
     justify-content: center;
