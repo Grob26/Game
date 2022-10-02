@@ -54,7 +54,9 @@
 
 .mainMenu-content{
     border: 1px solid black;
-    background-image: url();
+    background-color: hsla(0,0%,100%,.8);
+    backdrop-filter: blur(36px);
+    z-index: 1;
 }
 
 .sss summary {
