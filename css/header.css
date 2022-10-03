@@ -1,68 +1,77 @@
 .type {
-    width: 960px;
-    margin: auto;
+  width: 960px;
+  margin: auto;
 }
 
 .nav::before {
-    content: '';
-    display: block;
-    height: 50px;
-    width: 35%;
-    position: absolute;
-    right: 0;
-    z-index: -1;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 20px 100%);
+  transition: background-color 0.2s, backdrop-filter 0.2s,
+    -webkit-backdrop-filter 0.2s;
 }
 
 .btn {
-
-    display: flex;
-    justify-content: right;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  height: 88px;
 }
 
 .sss {
-    display: inline-block;
-    padding: 0 30px;
-    text-transform: uppercase;
-    line-height: 50px;
-    text-decoration: black;
+  display: inline-block;
+  padding: 0 30px;
+  text-transform: uppercase;
+  line-height: 50px;
+  text-decoration: black;
 }
 
 .news {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.sss>ul{
-    list-style: none;
-    padding: 1em;
-    margin: 0;
-    border: 1px solid black;
-    background-color: white;
+.sss > ul {
+  list-style: none;
+  padding: 1em;
+  margin: 0;
+  border: 1px solid black;
+  background-color: white;
 }
-.mainMenu, .mainMenu-content {
-    position: absolute;
-    min-inline-size: max-content;
+.mainMenu,
+.mainMenu-content {
+  position: absolute;
+  min-inline-size: max-content;
 }
 
-.mainMenu{
-    position: relative;
+.mainMenu {
+  position: relative;
 }
 
 .mainMenu summary::-webkit-details-marker {
-    display: none;
+  display: none;
 }
 
-.mainMenu-content{
-    border: 1px solid black;
-    background-image: url();
+.mainMenu-content {
+  border: 1px solid black;
+  background-color: hsla(0, 0%, 100%, 0.8);
+  backdrop-filter: blur(36px);
+  z-index: 1;
 }
 
 .sss summary {
-    cursor: pointer;
-    list-style: none;
+  cursor: pointer;
+  list-style: none;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }

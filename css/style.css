@@ -1,163 +1,204 @@
-
 body {
-    margin: 0;
-    font-family: ff-good-web-pro-condensed, sans-serif;
-    background-image: url(/img/background-e275f9c0..jpg);
+  margin: 0;
+  font-family: ff-good-web-pro-condensed, sans-serif;
+  background-image: url(/img/background-e275f9c0..jpg);
 }
 
 body.main {
-    background-image: url(/img/background-19d968e4..webp);
+  background-image: url(/img/background-19d968e4..webp);
 }
 
-
-
 .compass {
-    pointer-events: none;
-    position: fixed;
-    top: -800px;
-    left: -800px;
+  pointer-events: none;
+  position: fixed;
+  top: -800px;
+  left: -800px;
 }
 
 .header {
-    height: 128px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    font-size: 25px;
+  height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 25px;
 }
 
-.sss{
-    font-size: 25px;
+.sss {
+  font-size: 25px;
 }
 
 .logo {
-    max-width: 225px;
-    max-height: 65px;
+  max-width: 225px;
+  max-height: 65px;
 }
 
 .main {
-    width: auto;
-    background-image: url(/img/background-e275f9c0..jpg);
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed;
+  width: auto;
+  background-image: url(/img/background-e275f9c0..jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
 }
 
 .container {
-    position: relative;
-    max-width: 1640px;
-    padding: 0 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    font-size: 30px;
+  position: relative;
+  max-width: 1640px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  font-size: 30px;
 }
 
 .header.container {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .slide {
-    display: grid;
-    gap: 35px;
-    grid-template-columns: 57fr 19fr;
-    box-sizing: border-box;
-    align-items: center;
-    justify-items: center;
-    min-height: 340px;
+  display: grid;
+  gap: 35px;
+  grid-template-columns: 57fr 19fr;
+  box-sizing: border-box;
+  align-items: center;
+  justify-items: center;
+  min-height: 340px;
 }
 
 .buttons {
-    display: flex;
-    gap: 16px;
-    justify-content: space-between;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
 }
 
 .buttons.single {
-    justify-content: center;
-    margin-top: 50px;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .logo_ {
-    margin-top: 20px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  margin-top: 20px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .button {
-    position: relative;
-    min-width: 174px;
-    height: 52px;
-    box-shadow: 0 20px 32px rgb(63 101 97 / 50%);
-    color: black;
-    border: none;
-    padding: 0 10px;
-    margin: 0 23px;
-    text-transform: uppercase;
-    font-weight: 1.5;
-    background-repeat: repeat-x;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    white-space: nowrap;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: 25px;
+  position: relative;
+  min-width: 174px;
+  height: 52px;
+  box-shadow: 0 20px 32px rgb(63 101 97 / 50%);
+  color: black;
+  border: none;
+  padding: 0 10px;
+  margin: 0 23px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.5;
+  background-repeat: repeat-x;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button.small {
+  background-size: contain;
+  min-width: 108px;
+  margin: 0 14px;
+  height: 32px;
+  box-shadow: 0 12px 24px rgb(63 101 97 / 30%);
+  line-height: 1.5;
 }
 
 .button.red {
-    color: red;
-    background-image: url(https://www.thewitcher.com/build/images/middle-33abf525..png);
+  color: red;
+  background-image: url(https://www.thewitcher.com/build/images/middle-33abf525..png);
+}
+
+.button.red::before {
+  background-image: url(https://www.thewitcher.com/build/images/left-bc2cd3e3..png);
+  background-repeat: no-repeat;
+}
+
+.button.red::after {
+  background-image: url(https://www.thewitcher.com/build/images/right-26e93501..png);
+  background-repeat: no-repeat;
+}
+
+.button::before,
+.button::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 52px;
+  width: 23px;
+  top: 0;
+}
+
+.button.small::before {
+  left: -14px;
+}
+
+.button.small::after {
+  right: -14px;
+}
+
+.button.small::before,
+.button.small::after {
+  height: 32px;
+  width: 15px;
+  background-size: contain;
+  top: 0;
 }
 
 .news {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.action{
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+.action {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
-.stats{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    padding: 24px 0;
-    margin-bottom: 20px;
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 24px 0;
+  margin-bottom: 20px;
 }
 
-.stats>h2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 400;
-    font-size: 30px;
-    padding: 0 60px;
-    position: relative;
+.stats > h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  padding: 0 60px;
+  position: relative;
 }
 
-.stats>h2::before{
-    content: attr(data-count);
-    font-weight: 700;
-    font-size: 89px;
-    text-shadow: 0 6px 16px rgb(0 0 0 /40%);
+.stats > h2::before {
+  content: attr(data-count);
+  font-weight: 700;
+  font-size: 89px;
+  text-shadow: 0 6px 16px rgb(0 0 0 /40%);
 }
 
-.stats>h2:not(:first-child)::after{
-    content: "";
-    position: absolute;
-    width: 2px;
-    height: 100%;
-    background: rgba(0, 0, 0,.12);
-    top: 0;
-    left: -1px;
+.stats > h2:not(:first-child)::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.12);
+  top: 0;
+  left: -1px;
 }
