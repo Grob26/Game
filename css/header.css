@@ -6,17 +6,23 @@
 .nav::before {
     content: '';
     display: block;
-    height: 50px;
-    width: 35%;
     position: absolute;
+    top:0;
+    bottom: 0;
     right: 0;
+    left: 0;
     z-index: -1;
+    clip-path: polygon(0 0,100% 0,100% 100%,20px 100%);
+    transition: background-color .2s,backdrop-filter .2s,-webkit-backdrop-filter .2s;
 }
 
-.btn {
-
+.btn{
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    height: 88px;
+    
 }
 
 .sss {
