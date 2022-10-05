@@ -1,25 +1,11 @@
-.container {
+.container_img {
   display: flex;
   justify-content: right;
   display: inline-block;
-
+  position: relative;
   text-transform: uppercase;
   line-height: 50px;
 }
-
-.container ::after {
-  /* background: linear-gradient(0deg,#000,transparent 92.53%);
-opacity: .8;  */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  content: "";
-  display: block;
-  height: 229px;
-  z-index: 2;
-}
-
 
 .logo_1 {
   position: absolute;
@@ -32,18 +18,7 @@ opacity: .8;  */
 }
 
 .game_1 {
-  display: block;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  transition: 1s;
 
 }
 
-.back_1 {
-  transition: 1s;
 
-}
-.game_1:hover {
-  transform: scale(1.0); 
- }
