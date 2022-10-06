@@ -47,8 +47,6 @@ body.main {
   padding: 0 20px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
-  font-size: 30px;
 }
 
 .header.container {
@@ -201,4 +199,56 @@ body.main {
   background: rgba(0, 0, 0, 0.12);
   top: 0;
   left: -1px;
+}
+
+.footer {
+  background: #000;
+  min-height: 480px;
+  padding: 32px 0;
+}
+
+.content {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 32px;
+}
+
+.links>a {
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.links>:not(:first-child) {
+  margin-inline-start: 32px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 32px;
+}
+
+.content>:not(:first-child) {
+  margin-top: 40px;
+}
+
+.socials>:not(:first-child) {
+  margin-inline-start: 40px;
 }
