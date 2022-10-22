@@ -16,6 +16,11 @@
   width: calc(100% - 20px);
   z-index: 5;
 }
+
+.img_game{
+  align-items: center;
+  justify-content: center;
+}
 /* 
 .game_1 {
 
